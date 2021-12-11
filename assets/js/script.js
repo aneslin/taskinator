@@ -113,7 +113,7 @@ actionContainerE1.appendChild(editButtonE1);
 var deleteTask = function(taskId){
   var taskSelected = document.querySelector(".task-item[data-task-id='" + taskId + "']");
   taskSelected.remove();
-}
+} 
 
 var editTask = function(taskId){
   console.log("editing task #"+ taskId);
